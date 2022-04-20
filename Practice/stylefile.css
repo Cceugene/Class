@@ -1,0 +1,7 @@
+a {
+    text-decoration: none;
+}
+.chm li { font-weight: bold; }
+.chm > li { font-size: 2em; }
+.chs { font-size:26px }
+#table {width: 350px;}
