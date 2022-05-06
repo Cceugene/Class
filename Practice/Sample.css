@@ -1,0 +1,66 @@
+body {
+    position: relative;
+    height: 1000px;
+}
+header {
+    position: relative;
+    background-color: antiquewhite;
+    height: 100px;
+    border: solid 2px;
+}
+.Pagename {
+    position: relative;
+    text-align: center;
+    top: 7%;
+}
+nav {
+    position: relative;
+    background-color: aliceblue;
+    border: 2px solid black;
+    height: 35px;
+    margin-top: 2px;
+}
+.navspan {
+    border-right: 1px solid black;
+    align-items: center;
+}
+.search {
+    position: absolute;
+    right: 3px;
+    display: inline;
+    border: 0;
+}
+aside {
+    position: absolute;
+    left: 0; top: 147px; bottom: 0;
+    width: 100px;
+    background-color: brown;
+}
+.asideinner {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.main {
+    position: absolute;
+    border: 1px solid black;
+    left: 102px; top: 147px;
+}
+.serve {
+    margin: 0 15px;
+}
+.fixer {
+    position: fixed;
+    left: 0; right:0; bottom: 0;
+    background-color: antiquewhite;
+    z-index: 50;
+}
+footer {
+    position: absolute;
+    bottom: 20px;
+    height: 20px;
+}
+address {
+    position: relative;
+    height: 20px;
+    font-size: 12px;
+}
