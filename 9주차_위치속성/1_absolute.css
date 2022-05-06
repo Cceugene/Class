@@ -1,6 +1,6 @@
 .box {
     width: 100px; height: 100px;
-    position:absolute
+    position: absolute;
 }
 .box:nth-child(1) {
     background-color: red;

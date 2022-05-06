@@ -1,0 +1,24 @@
+.container {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.top_bar {
+    background-color: red;
+    position: fixed;
+    left: 0; top: 0; right: 0;
+    height: 50px;
+}
+.left_bar {
+    background-color: blue;
+    position: fixed;
+    left: 0; top: 0; bottom: 0;
+    width: 50px;
+}
+h1 {
+    width: 300px;
+}
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
